@@ -1,0 +1,60 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,bg_tu@2x_jpg",
+			"name": "preload"
+		},
+		{
+			"keys": "answer_question_json,loading_animation_json,loading_animation_png,answer_correct_json,answer_correct_png,answer_wrong_json,answer_wrong_png",
+			"name": "answer"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/AnswerGame/answer_question.json",
+			"type": "sheet",
+			"name": "answer_question_json",
+			"subkeys": "btn_answer@2x_png,btn_answer_on@2x_png,btn_bad@2x_png,btn_continue@2x_png,btn_correct_answer@2x_png,btn_good@2x_png,btn_report@2x_png,btn_wrong_answer@2x_png,img_bomb@2x_png,img_jump_over@2x_png,img_opportunity@2x_png,img_problem@2x_png"
+		},
+		{
+			"url": "assets/AnswerGame/bg_tu@2x.jpg",
+			"type": "image",
+			"name": "bg_tu@2x_jpg"
+		},
+		{
+			"url": "assets/Common/loading_animation.json",
+			"type": "json",
+			"name": "loading_animation_json"
+		},
+		{
+			"url": "assets/Common/loading_animation.png",
+			"type": "image",
+			"name": "loading_animation_png"
+		},
+		{
+			"url": "assets/AnswerGame/answer_correct.json",
+			"type": "json",
+			"name": "answer_correct_json"
+		},
+		{
+			"url": "assets/AnswerGame/answer_correct.png",
+			"type": "image",
+			"name": "answer_correct_png"
+		},
+		{
+			"url": "assets/AnswerGame/answer_wrong.json",
+			"type": "json",
+			"name": "answer_wrong_json"
+		},
+		{
+			"url": "assets/AnswerGame/answer_wrong.png",
+			"type": "image",
+			"name": "answer_wrong_png"
+		}
+	]
+}

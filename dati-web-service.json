@@ -1,0 +1,34 @@
+{
+  "apiVersion": "v1",
+  "kind": "Service",
+  "metadata": {
+    "name": "dati-web-server",
+    "labels": {
+      "app": "dati-web",
+      "chart": "dati-web-1.0",
+      "release": "dati-web",
+      "heritage": "Tiller",
+      "component": "server"
+    },
+    "annotations": {
+      "kubernetes.io/ingress.class": "nginx",
+      "kubernetes.io/tls-acme": "true"
+    }
+  },
+  "spec": {
+    "type": "ClusterIP",
+    "ports": [
+      {
+        "port": 80,
+        "targetPort": 80,
+        "protocol": "TCP",
+        "name": "http"
+      }
+    ],
+    "selector": {
+      "app": "dati-web",
+      "release": "dati-web",
+      "component": "server"
+    }
+  }
+}

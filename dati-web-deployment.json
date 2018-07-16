@@ -1,0 +1,50 @@
+{
+  "apiVersion": "apps/v1beta2",
+  "kind": "Deployment",
+  "metadata": {
+    "name": "dati-web-server",
+    "labels": {
+      "app": "dati-web",
+      "chart": "dati-web-1.0",
+      "release": "dati-web",
+      "heritage": "Tiller",
+      "component": "server"
+    }
+  },
+  "spec": {
+    "replicas": 1,
+    "strategy": {
+      "type": "Recreate"
+    },
+    "selector": {
+      "matchLabels": {
+        "app": "dati-web",
+        "release": "dati-web",
+        "component": "server"
+      }
+    },
+    "template": {
+      "metadata": {
+        "labels": {
+          "app": "dati-web",
+          "release": "dati-web",
+          "component": "server"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "name": "dati-web-server",
+            "image": "#{image}",
+            "imagePullPolicy": "IfNotPresent",
+            "ports": [
+              {
+                "containerPort": 80
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

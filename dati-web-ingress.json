@@ -1,0 +1,44 @@
+{
+  "apiVersion": "extensions/v1beta1",
+  "kind": "Ingress",
+  "metadata": {
+    "name": "dati-web-server",
+    "labels": {
+      "app": "dati-web",
+      "chart": "dati-web-1.0",
+      "release": "dati-web",
+      "heritage": "Tiller",
+      "component": "server"
+    },
+    "annotations": {
+      "kubernetes.io/ingress.class": "nginx",
+      "kubernetes.io/tls-acme": "true"
+    }
+  },
+  "spec": {
+    "tls": [
+      {
+        "hosts": [
+          "www.shafayouxi.org"
+        ],
+        "secretName": "dati-tls"
+      }
+    ],
+    "rules": [
+      {
+        "host": "www.shafayouxi.org",
+        "http": {
+          "paths": [
+            {
+              "path": "/dati",
+              "backend": {
+                "serviceName": "dati-web-server",
+                "servicePort": 80
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

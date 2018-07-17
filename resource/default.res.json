@@ -5,7 +5,7 @@
 			"name": "preload"
 		},
 		{
-			"keys": "answer_correct_json,answer_correct_png,answer_wrong_json,answer_wrong_png,quiz_scene_json,loading_animation_json,loading_animation_png",
+			"keys": "quiz_scene_json,loading_animation_json,loading_animation_png,btn_game_over_continue@2x_png,btn_game_over_continue_on@2x_png,img_game_over@2x_png,answer_times_up_animation_json,answer_times_up_animation_png,answer_correct_animation_json,answer_correct_animation_png,answer_wrong_animation_json,answer_wrong_animation_png",
 			"name": "answer"
 		}
 	],
@@ -31,30 +31,55 @@
 			"name": "loading_animation_png"
 		},
 		{
-			"url": "assets/AnswerGame/answer_correct.json",
-			"type": "json",
-			"name": "answer_correct_json"
-		},
-		{
-			"url": "assets/AnswerGame/answer_correct.png",
-			"type": "image",
-			"name": "answer_correct_png"
-		},
-		{
-			"url": "assets/AnswerGame/answer_wrong.json",
-			"type": "json",
-			"name": "answer_wrong_json"
-		},
-		{
-			"url": "assets/AnswerGame/answer_wrong.png",
-			"type": "image",
-			"name": "answer_wrong_png"
-		},
-		{
 			"url": "assets/AnswerGame/quiz_scene.json",
 			"type": "sheet",
 			"name": "quiz_scene_json",
 			"subkeys": "btn_answer@2x_png,btn_answer_on@2x_png,btn_bad@2x_png,btn_bad_on@2x_png,btn_continue@2x_png,btn_continue_on@2x_png,btn_correct_answer@2x_png,btn_good@2x_png,btn_good_on@2x_png,btn_report@2x_png,btn_wrong_answer@2x_png,icon_back@2x_png,img_bomb@2x_png,img_jump_over@2x_png,img_opportunity@2x_png,img_problem@2x_png"
+		},
+		{
+			"url": "assets/GameOver/btn_game_over_continue@2x.png",
+			"type": "image",
+			"name": "btn_game_over_continue@2x_png"
+		},
+		{
+			"url": "assets/GameOver/btn_game_over_continue_on@2x.png",
+			"type": "image",
+			"name": "btn_game_over_continue_on@2x_png"
+		},
+		{
+			"url": "assets/GameOver/img_game_over@2x.png",
+			"type": "image",
+			"name": "img_game_over@2x_png"
+		},
+		{
+			"url": "assets/AnswerGame/answer_times_up_animation.json",
+			"type": "json",
+			"name": "answer_times_up_animation_json"
+		},
+		{
+			"url": "assets/AnswerGame/answer_times_up_animation.png",
+			"type": "image",
+			"name": "answer_times_up_animation_png"
+		},
+		{
+			"url": "assets/AnswerGame/answer_correct_animation.json",
+			"type": "json",
+			"name": "answer_correct_animation_json"
+		},
+		{
+			"url": "assets/AnswerGame/answer_correct_animation.png",
+			"type": "image",
+			"name": "answer_correct_animation_png"
+		},
+		{
+			"url": "assets/AnswerGame/answer_wrong_animation.json",
+			"type": "json",
+			"name": "answer_wrong_animation_json"
+		},
+		{
+			"url": "assets/AnswerGame/answer_wrong_animation.png",
+			"type": "image",
+			"name": "answer_wrong_animation_png"
 		}
 	]
 }

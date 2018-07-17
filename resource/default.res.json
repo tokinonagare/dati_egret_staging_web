@@ -5,7 +5,7 @@
 			"name": "preload"
 		},
 		{
-			"keys": "loading_animation_json,loading_animation_png,answer_correct_json,answer_correct_png,answer_wrong_json,answer_wrong_png,quiz_scene_json",
+			"keys": "answer_correct_json,answer_correct_png,answer_wrong_json,answer_wrong_png,quiz_scene_json,loading_animation_json,loading_animation_png",
 			"name": "answer"
 		}
 	],

@@ -15,10 +15,11 @@
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
+		"resource/eui_skins/Common/ImageButtonUI.exml",
 		"resource/eui_skins/Common/TransparentLayerUI.exml",
 		"resource/eui_skins/Common/LoadingLayerUI.exml",
-		"resource/eui_skins/Common/PureTextButtonUI.exml",
 		"resource/eui_skins/Common/NavigationBarUI.exml",
+		"resource/eui_skins/Common/PureTextButtonUI.exml",
 		"resource/eui_skins/QuizScene/View/QuestionLayerUI.exml",
 		"resource/eui_skins/QuizScene/View/QuizSceneBottomToolbarItemUI.exml",
 		"resource/eui_skins/QuizScene/View/QuizSceneBottomToolbarUI.exml",

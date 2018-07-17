@@ -54,7 +54,7 @@
 			"url": "assets/AnswerGame/quiz_scene.json",
 			"type": "sheet",
 			"name": "quiz_scene_json",
-			"subkeys": "btn_answer@2x_png,btn_answer_on@2x_png,btn_bad@2x_png,btn_bad_on@2x_png,btn_continue@2x_png,btn_continue_on@2x_png,btn_correct_answer@2x_png,btn_good@2x_png,btn_good_on@2x_png,btn_report@2x_png,btn_wrong_answer@2x_png,img_bomb@2x_png,img_jump_over@2x_png,img_opportunity@2x_png,img_problem@2x_png"
+			"subkeys": "btn_answer@2x_png,btn_answer_on@2x_png,btn_bad@2x_png,btn_bad_on@2x_png,btn_continue@2x_png,btn_continue_on@2x_png,btn_correct_answer@2x_png,btn_good@2x_png,btn_good_on@2x_png,btn_report@2x_png,btn_wrong_answer@2x_png,icon_back@2x_png,img_bomb@2x_png,img_jump_over@2x_png,img_opportunity@2x_png,img_problem@2x_png"
 		}
 	]
 }

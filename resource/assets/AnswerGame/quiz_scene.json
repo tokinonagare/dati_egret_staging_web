@@ -13,4 +13,5 @@
 "img_problem@2x_png":{"x":1,"y":1,"w":722,"h":416,"offX":0,"offY":0,"sourceW":722,"sourceH":416},
 "btn_bad_on@2x_png":{"x":827,"y":91,"w":100,"h":85,"offX":0,"offY":0,"sourceW":100,"sourceH":85},
 "btn_continue_on@2x_png":{"x":1,"y":869,"w":702,"h":85,"offX":0,"offY":0,"sourceW":702,"sourceH":85},
-"btn_good_on@2x_png":{"x":725,"y":91,"w":100,"h":85,"offX":0,"offY":0,"sourceW":100,"sourceH":85}}}
+"btn_good_on@2x_png":{"x":725,"y":91,"w":100,"h":85,"offX":0,"offY":0,"sourceW":100,"sourceH":85},
+"icon_back@2x_png":{"x":980,"y":85,"w":24,"h":41,"offX":0,"offY":0,"sourceW":24,"sourceH":41}}}

@@ -1,0 +1,58 @@
+{"mc":{
+	"animation":{
+		"frameRate":6,
+		"labels":[
+			{"name":"play","frame":1,"end":7}
+			
+			],
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"Dati_jiazai_00000_png",
+			"x":263,
+			"y":1073
+			},
+			{
+			"res":"Dati_jiazai_00002_png",
+			"x":221,
+			"y":1068
+			},
+			{
+			"res":"Dati_jiazai_00004_png",
+			"x":98,
+			"y":1068
+			},
+			{
+			"res":"Dati_jiazai_00006_png",
+			"x":90,
+			"y":1069
+			},
+			{
+			"res":"Dati_jiazai_00008_png",
+			"x":83,
+			"y":1069
+			},
+			{
+			"res":"Dati_jiazai_00010_png",
+			"x":75,
+			"y":1068
+			},
+			{
+			"res":"Dati_jiazai_00012_png",
+			"x":72,
+			"y":1068
+			}
+			]
+}},
+	"res":{
+		"Dati_jiazai_00008_png":{"x":1,"y":363,"w":581,"h":176},
+		"Dati_jiazai_00002_png":{"x":606,"y":1,"w":306,"h":137},
+		"Dati_jiazai_00012_png":{"x":1,"y":1,"w":603,"h":179},
+		"Dati_jiazai_00010_png":{"x":1,"y":182,"w":597,"h":179},
+		"Dati_jiazai_00006_png":{"x":1,"y":541,"w":567,"h":174},
+		"Dati_jiazai_00004_png":{"x":1,"y":717,"w":551,"h":173},
+		"Dati_jiazai_00000_png":{"x":606,"y":140,"w":222,"h":122}
+	}}

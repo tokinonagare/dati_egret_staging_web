@@ -26,9 +26,10 @@
 		"resource/eui_skins/QuizScene/View/QuestionLayerUI.exml",
 		"resource/eui_skins/QuizScene/View/QuizSceneBottomToolbarItemUI.exml",
 		"resource/eui_skins/QuizScene/View/QuizSceneBottomToolbarUI.exml",
-		"resource/eui_skins/QuizScene/View/QuizDashboardButtonUI.exml",
-		"resource/eui_skins/QuizScene/View/QuizDashboardUI.exml",
+		"resource/eui_skins/QuizScene/View/QuizAnswerButtonUI.exml",
+		"resource/eui_skins/QuizScene/View/QuizAnswerLayerUI.exml",
 		"resource/eui_skins/QuizScene/View/QuizFinishedLayerUI.exml",
+		"resource/eui_skins/QuizScene/View/QuizDashboardUI.exml",
 		"resource/eui_skins/QuizScene/QuizSceneUI.exml",
 		"resource/eui_skins/QuizScene/View/QuizTagItemUI.exml"
 	],

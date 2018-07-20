@@ -20,6 +20,8 @@
 		"resource/eui_skins/Common/LoadingLayerUI.exml",
 		"resource/eui_skins/Common/NavigationBarUI.exml",
 		"resource/eui_skins/Common/PureTextButtonUI.exml",
+		"resource/eui_skins/Common/SQAlertButtonUI.exml",
+		"resource/eui_skins/Common/SQAlertUI.exml",
 		"resource/eui_skins/GameOver/GameOverInfoItemUI.exml",
 		"resource/eui_skins/GameOver/GameOverSceneUI.exml",
 		"resource/eui_skins/LaunchGame/LaunchGameSceneUI.exml",

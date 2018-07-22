@@ -214,12 +214,17 @@ index_directory = './index.html'
 
 insert_next_line(
     index_directory,
-    "height: 100%;",
+    "-ms-touch-action: none;",
     "background-size: 100% 100%;"
 )
 
 insert_next_line(
     index_directory,
-    "height: 100%",
+    "-ms-touch-action: none;",
     "background-image: url(\"./launch.jpg\");"
+)
+
+delete_line(
+    index_directory,
+    "background: #888888;"
 )

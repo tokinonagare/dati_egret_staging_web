@@ -6,10 +6,11 @@
 		"js/assetsmanager.min_49f5417f.js",
 		"js/tween.min_6c5a88f9.js",
 		"js/game.min_45aa06f6.js",
-		"js/promise.min_83a6a5d.js"
+		"js/promise.min_83a6a5d.js",
+		"js/uuid.min_56860d1c.js"
 	],
 	"game": [
 		"js/default.thm_ef29d587.js",
-		"js/main.min_3c1a32cc.js"
+		"js/main.min_715b03dd.js"
 	]
 }

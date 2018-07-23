@@ -1,4 +1,4 @@
-#!/usr/bin/env python -u
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
 修改项目文件的工具类

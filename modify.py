@@ -8,20 +8,19 @@ import util
 
 index_directory = './index.html'
 
-util.replace_string(
+util.insert_next_line(
     index_directory,
-    "portrait",
-    "landescape"
+    "-ms-touch-action: none;",
+    "background-image: url(\"./launch.jpg\");"
 )
 
-util.replace_string(
+util.insert_next_line(
     index_directory,
-    "exactFit",
-    "showAll"
+    "-ms-touch-action: none;",
+    "background-size: 100% 100%;"
 )
 
-util.replace_line(
+util.delete_line(
     index_directory,
-    "background: #888888;",
-    "background: #ffffff;"
+    "background: #888888;"
 )

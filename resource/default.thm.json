@@ -32,8 +32,7 @@
 		"resource/eui_skins/QuizScene/View/QuizAnswerLayerUI.exml",
 		"resource/eui_skins/QuizScene/View/QuizFinishedLayerUI.exml",
 		"resource/eui_skins/QuizScene/View/QuizDashboardUI.exml",
-		"resource/eui_skins/QuizScene/QuizSceneUI.exml",
-		"resource/eui_skins/QuizScene/View/QuizTagItemUI.exml"
+		"resource/eui_skins/QuizScene/QuizSceneUI.exml"
 	],
 	"path": "resource/default.thm.json"
 }

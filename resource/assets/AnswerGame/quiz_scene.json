@@ -17,4 +17,6 @@
 "btn_reply_1_on@2x_png":{"x":725,"y":145,"w":199,"h":69,"offX":0,"offY":0,"sourceW":199,"sourceH":69},
 "btn_reply_1@2x_png":{"x":725,"y":1,"w":200,"h":70,"offX":0,"offY":0,"sourceW":200,"sourceH":70},
 "btn_reply_2_on@2x_png":{"x":725,"y":216,"w":199,"h":69,"offX":0,"offY":0,"sourceW":199,"sourceH":69},
-"btn_reply_2@2x_png":{"x":725,"y":73,"w":200,"h":70,"offX":0,"offY":0,"sourceW":200,"sourceH":70}}}
+"btn_reply_2@2x_png":{"x":725,"y":73,"w":200,"h":70,"offX":0,"offY":0,"sourceW":200,"sourceH":70},
+"img_time_bar@2x_png":{"x":1,"y":953,"w":700,"h":6,"offX":0,"offY":0,"sourceW":700,"sourceH":6},
+"img_time@2x_png":{"x":1,"y":961,"w":700,"h":6,"offX":0,"offY":0,"sourceW":700,"sourceH":6}}}

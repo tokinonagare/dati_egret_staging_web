@@ -8,6 +8,7 @@
 		"resource/eui_skins/Common/TransparentLayerUI.exml",
 		"resource/eui_skins/Common/LoadingLayerUI.exml",
 		"resource/eui_skins/Common/NavigationBarUI.exml",
+		"resource/eui_skins/Common/ProgressBarUI.exml",
 		"resource/eui_skins/Common/PureTextButtonUI.exml",
 		"resource/eui_skins/Common/SQAlertButtonUI.exml",
 		"resource/eui_skins/Common/SQAlertUI.exml",
